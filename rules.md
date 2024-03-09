@@ -21,15 +21,15 @@ Cards are distributed one at a time, clockwise, starting with the player to the 
 
 Each player is allocated nine starting cards, like so:
 
-- Three "down" cards, which remain face down initially and are unknown even to the player receiving them. These are arranged in a line in front of the player.
+- Three "down" cards, (the first to be dealt) which are dealt and remain face down, unknown even to the player receiving them. These are arranged in a line in front of the player.
 - Three "up" cards, which are distributed face up and visible to all players. Each of these is placed upon one of the player's down-cards, so that each down-card is covered by precisely one up-card.
-- Three "hand" cards, which are held in the player's hand, visible only to them and not the other players.
+- Three "hand" cards (the last to be dealt), which are dealt face down and held in the player's hand, visible only to them.
 
 The remaining cards form a face-down pick-up pile in the centre of the playing area.
 
 Space should be left in the playing area for a "play pile" and a "burn pile".
 
-Before the game begins, and _only_ before the game begins, players may choose to exchange some or all of their hand cards with some or all of their up-cards. Players will typically do this to ensure their better cards are in the "up" position, which will hopefully leave them in a stronger position towards the end of a game.
+Before the game begins, and _only_ before the game begins, players may choose to exchange some or all of their hand-cards with some or all of their up-cards. Players will typically do this to ensure their better cards are in the "up" position, which will hopefully leave them in a stronger position towards the end of a game.
 
 ## 4. Gameplay
 
@@ -54,7 +54,7 @@ When a player has no more cards left, they have left the game. When only one pla
 
 A player's _must_ perform precisely one of three actions on their turn:
 
-1. Play one or more _playable_ cards from their hand, adding it/them face up onto the top of the play pile
+1. Play a set of _playable_ cards from their hand, adding it/them face up onto the top of the play pile
 2. Pick up all of the play pile cards into their hand
 3. "Show" a 3 to another player (more details on this later - see section 9).
 
@@ -80,18 +80,20 @@ If a player played a card from their hand, entitling them to another go, taking 
 
 A playable card is a card in the player's hand that has face value equal to or higher than the previous card played, with two exceptions:
 
-- A 2 is playable after any card of any value (see section 6)
+- A 2 is playable after any card of any value (see section 7)
 - If the previous card played was a 7, then the next card played must be equal to or _lower_. i.e. 2, 4, 5, 6 or 7 (3 is purposefully absent since 3's are never _played_, they are _shown_).
 
 Aces are always high, and so the only cards that can be played after an Ace are another Ace, or a 2.
 
-## 6. Playing a 2
+## 6. Playing multiple cards
+
+Typically a player may only play one playable card on their turn - a set of one playable cards.
+
+If a player holds more than one playable card with the same face value in their hand, they may play two or more of them at once, in a single turn - a set of multiple playable cards. This is a handy mechanism for getting rid of one's cards as quickly as possible, although it might be advantageous to avoid this with stronger cards.
+
+## 7. Playing a 2
 
 A 2 can be played after any prior card and permits the player a second go immediately. Since 2 is the lowest face value card, any other card is subsequently playable. This is a highly useful card as it effectively acts as a reset.
-
-## 7. Playing multiple cards
-
-If a player holds more than one playable card with the same face value in their hand, they may play two or more of them at once, in a single turn. This is a handy mechanism for getting rid of one's cards as quickly as possible, although it might be advantageous to avoid this with stronger cards.
 
 ## 8. Burning cards
 
@@ -119,7 +121,7 @@ A player holding a 3 in their hand may always show it on their turn - there is n
 
 ## 10. Endgame - "up" cards
 
-One a player has exhausted their hand cards, and the pick-up pile is empty so there is no chance of replenishing their hand, then they can begin to play their up-cards.
+One a player has exhausted their hand-cards, and the pick-up pile is empty so there is no chance of replenishing their hand, then they can begin to play their up-cards.
 
 At the point of their next turn, one of the up-cards of the player's choosing enters their hand, whether it is possible for them to play it this turn or not.
 
@@ -127,23 +129,25 @@ If the player has multiple up-cards of the same face value, they may choose to t
 
 Once up-cards have entered the player's hand, the player takes a standard turn.
 
-When a player plays their last hand card(s), if they have an up-card (or multiple) with the same face value as the card(s) just palyed, those cards may akso be played that turn (e.g. a jack in the hand and a jack up-card could be played as a pair). This is only permitted once the pick-up pile has been depleted.
+When a player plays their last hand-card(s), if they have an up-card (or multiple) with the same face value as the card(s) just palyed, those cards may akso be played that turn (e.g. a jack in the hand and a jack up-card could be played as a pair). This is only permitted once the pick-up pile has been depleted.
 
 If a player has an empty hand, with a 3 as an up-card, and is shown a 3 by another player, then they may bring the up-card into their hand at this point in order to show a 3 in response.
 
 ## 11. Endgame - "down" cards
 
-Once a player has exhausted both their hand cards and up-cards, they must play one of their down-cards blindly, since they do not know the value of any of these cards.
+Once a player has exhausted both their hand-cards and up-cards, they must play one of their down-cards blindly, since they do not know the value of any of these cards.
 
 They may choose to pre-select and view this card prior to their next turn (once hand and up-cards are exhausted), at which point the card enters their hand. They may not change that decision once the card has been viewed.
 
-If a player has no hand cards, no up-cards, and has not pre-selected a down-card into their hand, and is shown a 3 by another player, they may take a down-card into their hand at this point. If it turns out to be a 3, they may show it in response to the 3 they were shown.
+If a player has no hand-cards, no up-cards, and has not pre-selected a down-card into their hand, and is shown a 3 by another player, they may take a down-card into their hand at this point. If it turns out to be a 3, they may show it in response to the 3 they were shown.
 
-Since the down-card becomes a hand card prior to being played, there is no need to reveal the card if it cannot be played on the player's next turn, it simply remains in the hand.
+Since the down-card becomes a hand-card prior to being played, there is no need to reveal the card if it cannot be played on the player's next turn, it simply remains in the hand.
 
 ## 12. Libraries
 
-An excessively large hand (10+ cards ) is a "library". If a player picks up a large amount of cards from the pile, giving them a library, all other players must sing "Library Boy" at this player, to the tune of ["Wonderboy" by Tenacious D](https://www.youtube.com/watch?v=FL4HSiGvk68&ab_channel=tenaciousDVEVO).
+An excessively large hand (10+ cards) is a "library". If a player picks up a large amount of cards from the pile, giving them a library, all other players must sing "Library Boy" at this player, to the tune of ["Wonderboy" by Tenacious D](https://www.youtube.com/watch?v=FL4HSiGvk68&ab_channel=tenaciousDVEVO).
+
+A player with a library will often request patience from the other players while they "sort out their library". These requests are not to be granted.
 
 ## 13. Losing thrice in a sitting
 
