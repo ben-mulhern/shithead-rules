@@ -35,15 +35,37 @@ The remaining cards form a face-down pick-up pile in the centre of the playing a
 
 Space should be left in the playing area for a "play pile" and a "burn pile".
 
+```
+Player 1        Player 2
+--------        --------
+H: 5 2 K        H: ? ? ?
+U: 9 K 8        U: 3 2 5
+D: ? ? ?        D: ? ? ?
+
+ Burn     Play   Pick-up
+ Pile     Pile     Pile
+ [ ]      [ ]      [?]
+
+Player 3        Player 4
+--------        --------
+H: ? ? ?        H: ? ? ?
+U: 9 9 8        U: 2 6 T
+D: ? ? ?        D: ? ? ?
+```
+
+_Example of a four-player game from Player 1's perspective - they can see their own hand-cards but no-one else's_
+
 Before the game begins, and _only_ before the game begins, players may choose to exchange some or all of their hand-cards with some or all of their up-cards. Players will typically do this to ensure their better cards are in the "up" position, which will hopefully leave them in a stronger position towards the end of a game.
 
 ```
-Player 1
-------------
-Hand: 🂠 🂠 🂠
-Up:   🂢 🂻 🃎
-Down: 🂠 🂠 🂠
+      Player 1
+      --------
+Hand: 5 2 K           5 8 9
+Up:   9 K 8     --->  K K 2
+Down: ? ? ?           ? ? ?
 ```
+
+_Player 1 chooses to exchange their 8 and 9 up-cards with their 2 and King hand-cards during setup_
 
 ## 4. Gameplay
 
@@ -66,7 +88,7 @@ When a player has no more cards left, they have left the game. When only one pla
 
 ### 4.3 A player's turn
 
-A player's _must_ perform precisely one of three actions on their turn:
+A player must perform precisely one of three actions on their turn:
 
 1. Play a set of _playable_ cards from their hand, adding it/them face up onto the top of the play pile
 2. Pick up all of the play pile cards into their hand
@@ -78,11 +100,9 @@ A player might tactically choose to pick up the pile rather than take another ac
 
 When a player picks up the pile, the player to their left takes the next turn, playing any card of their choosing.
 
-Certain actions permit the player an immediate, additional turn (more details on this later on).
+Certain actions permit the player an immediate, additional turn. If a player gets rid of their last card in an action that would have otherwise resulted in them taking an immediate, additional turn, then the player to their left instead takes the next turn (unless they are the sole, remaining player, in which case the game is over).
 
-If a player gets rid of their last card in an action that would have otherwise resulted in them taking an immediate, additional turn, then the player to their left instead takes the next turn (unless they are the sole, remaining player, in which case the game is over).
-
-#### 4.3.1 Picking up & minimum hand size
+#### 4.3.1 Minimum hand size
 
 If a player plays one or more cards on their turn, and this reduces their hand size to below three cards, and if there are still cards in the pick-up pile, they must replenish their hand using the top card(s) from the pick-up pile - as many as it takes to either return their hand size to three or fully exhaust the pick-up pile, whichever comes first.
 
@@ -90,14 +110,37 @@ There is no upper limit to the number of cards in a player's hand, other than th
 
 If a player played a card from their hand, entitling them to another go, taking their hand-size below three, and if the pick-up pile is not empty, then they would pick up-cards to replenish their hand before taking the additional go.
 
+```
+Example:
+Player 1 has five cards in-hand: a 4, a 5, and three Jacks.
+They are able to play their three Jacks as a set, reducing their hand size to two cards.
+Since the pick-up pile is not empty, they take the top card from the pick-up pile into their hand, bringing their hand-size up to the minimum of three.
+
+Example:
+Player 2 has three cards in-hand: a 10 and two 5s.
+There is only one card left in the pick-up pile.
+They are able to play their 5s as a pair, reducing their hand size to one card. They pick up the final card in the pick-up pile into their hand. Their hand size is now two cards, since it is not possible to replenish it back to three cards.
+```
+
 ## 5. Playable cards
 
-A playable card is a card in the player's hand that has face value equal to or higher than the previous card played, with two exceptions:
+A playable card is a card in the player's hand that has face value equal to or higher than the card at the top of the play pile (i.e. the last card played), with two exceptions:
 
 - A 2 is playable after any card of any value (see section 7)
 - If the previous card played was a 7, then the next card played must be equal to or _lower_. i.e. 2, 4, 5, 6 or 7 (3 is purposefully absent since 3's are never _played_, they are _shown_).
 
 Aces are always high, and so the only cards that can be played after an Ace are another Ace, or a 2.
+
+If there is no card at the top of the play pile - e.g. because it's the first turn of the game, or the last player had to pick up the play pile, then any card (except a 3) is a playable card.
+
+```
+Example:
+Player 2 plays an 8.
+Play moves to Player 3, who has a hand of 4, 8 and Jack.
+The 4 is not playable, as it has lower face-value than the last played card.
+The 8 is playable, as it has equal face-value to the last played card.
+The Jack is playable, as it has greater face-value than the last played card.
+```
 
 ## 6. Playing multiple cards
 
@@ -105,9 +148,27 @@ Typically a player may only play one playable card on their turn - a set of one 
 
 If a player holds more than one playable card with the same face value in their hand, they may play two or more of them at once, in a single turn - a set of multiple playable cards. This is a handy mechanism for getting rid of one's cards as quickly as possible, although it might be advantageous to avoid this with stronger cards.
 
+```
+Example:
+Player 2 plays an 8.
+Play moves to Player 3, who has a hand of 4, and two 9s.
+They are able to play both 9s together, as a set.
+```
+
 ## 7. Playing a 2
 
 A 2 can be played after any prior card and permits the player a second go immediately. Since 2 is the lowest face value card, any other card is subsequently playable. This is a highly useful card as it effectively acts as a reset.
+
+If playing the 2 reduces the player's hand size to below three cards, and if the pick-up pile is not empty, the player should replenish their hand from the pick-up pile before taking their next turn.
+
+```
+Example:
+Player 2 plays an Ace.
+Play moves to Player 3, who has a hand of 4, 5 and 2.
+They are able to play the 2.
+They then pick-up a 9 to replenish their hand.
+They may now play any of the 4, 5 or 9 in their hand.
+```
 
 ## 8. Burning cards
 
@@ -116,6 +177,28 @@ If a player plays a 10, the play pile is "burned". Those cards, including the 10
 The play pile is also burned if all four cards of a particular face value are played consecutively (whether by a single player or by consecutive players).
 
 In both cases, the player whose card initiated the burn gets another go.
+
+```
+Example:
+Player 3 plays a 9.
+Player 4 has a hand of four cards, including a 10.
+Player 4 plays the 10, burning the play pile, moving all of those cards to the burn pile.
+They do not pick-up new cards into their hand since their hand is still three cards or more in size (exactly three cards).
+They take an additional go, playing any of the remaining three cards in their hand, since the play pile is empty.
+They end their turn by picking up a card from the pick-up pile, to replenish their hand back to three cards.
+
+Example:
+Player 4 plays two Kings.
+Player 1, the next player, has the other two Kings in their hand.
+They play these two Kings, making four consecutive Kings, burning the play pile.
+Player 1 replenishes their hand if required, and takes another go.
+
+Example:
+Player 1 plays two Kings.
+Player 2 plays an Ace.
+Player 3 plays a 2, followed by the other two Kings.
+This does not burn the pile - although four Kings have been played, they are not adjacent at the top of the play pile.
+```
 
 ## 9. Showing 3s
 
