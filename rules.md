@@ -206,7 +206,7 @@ This does not burn the pile - although four Kings have been played, they are not
 
 A player holding a 3 in their hand may choose to show it to another player as their action on their turn. This is performed as a physical gesture, holding the card out towards their chosen recipient, rather than playing it on the pile.
 
-![Isildur showing a 3 to Sauron during a particularly boistrous game of Shithead](/images/showing_a_three.png)
+![Isildur showing a 3 to Sauron during a particularly boistrous game of Shithead](/images/showing_a_three.png)\
 _Isildur showing a 3 to Sauron during a particularly boistrous game of Shithead_
 
 The recipient of the 3 must pick up the play pile. The player to their left then takes the next turn. For this reason, it is common to show 3s to the player to your right, so that you then take the next turn as well.
