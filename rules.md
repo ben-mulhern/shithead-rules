@@ -4,7 +4,7 @@ Shithead is a popular card game, played with a standard deck of 52 playing cards
 
 Many variations of the game exist, but the Sainsbury's Winnersh ruleset is the one, true version of the game. All other versions are incorrect and should not be indulged.
 
-![Sainsbury's, Winnersh](/images/sainos.png)
+![Sainsbury's, Winnersh](/images/sainos.png)\
 _Sainsbury's, Winnersh_
 
 The Sainsbury's Winnersh rules were carefully refined over many, many rounds, primarily at the Pheasant pub in Winnersh, UK, circa 2001-2003.
