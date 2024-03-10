@@ -16,8 +16,8 @@ Players aim to lose all of their cards, allowing them to leave the game and thus
 
 The last player still holding cards loses the game, and is the Shithead. You do not want to be the Shithead.
 
-![Darth Vader having just lost a game of Shithead](/images/nooo.gif)\
-_Darth Vader having just lost a game of Shithead_
+![Darth Vader screaming Noooooo!](/images/nooo.gif)\
+_A common reaction upon becoming The Shithead_
 
 ## 3. Setup
 
@@ -35,25 +35,8 @@ The remaining cards form a face-down pick-up pile in the centre of the playing a
 
 Space should be left in the playing area for a "play pile" and a "burn pile".
 
-```
-Player 1        Player 2
---------        --------
-H: 5 2 K        H: ? ? ?
-U: 9 K 8        U: 3 2 5
-D: ? ? ?        D: ? ? ?
-
- Burn     Play   Pick-up
- Pile     Pile     Pile
- [ ]      [ ]      [?]
-
-Player 3        Player 4
---------        --------
-H: ? ? ?        H: ? ? ?
-U: 9 9 8        U: 2 6 T
-D: ? ? ?        D: ? ? ?
-```
-
-_Example of a four-player game from Player 1's perspective - they can see their own hand-cards but no-one else's_
+![Setup diagram](/images/setup.png)\
+_Example of set-up for a four-player game_
 
 Before the game begins, and _only_ before the game begins, players may choose to exchange some or all of their hand-cards with some or all of their up-cards. Players will typically do this to ensure their better cards are in the "up" position, which will hopefully leave them in a stronger position towards the end of a game.
 
@@ -133,6 +116,8 @@ Aces are always high, and so the only cards that can be played after an Ace are 
 
 If there is no card at the top of the play pile - e.g. because it's the first turn of the game, or the last player had to pick up the play pile, then any card (except a 3) is a playable card.
 
+Note that despite the special property of the 7 card, it must still be played in sequence, and can only be played after cards with equal or lower value.
+
 ```
 Example:
 Player 2 plays an 8.
@@ -174,6 +159,8 @@ They may now play any of the 4, 5 or 9 in their hand.
 
 If a player plays a 10, the play pile is "burned". Those cards, including the 10 (or 10s), are removed from play to the "burn pile". Burnt cards take no further part in the current game.
 
+Note that despite the 10 having this special power, it is still bound by the regular gameplay rules, and must be played in sequence - i.e. it cannot be played after higher-value cards.
+
 The play pile is also burned if all four cards of a particular face value are played consecutively (whether by a single player or by consecutive players).
 
 In both cases, the player whose card initiated the burn gets another go.
@@ -207,7 +194,7 @@ This does not burn the pile - although four Kings have been played, they are not
 A player holding a 3 in their hand may choose to show it to another player as their action on their turn. This is performed as a physical gesture, holding the card out towards their chosen recipient, rather than playing it on the pile.
 
 ![Isildur showing a 3 to Sauron during a particularly boistrous game of Shithead](/images/showing_a_three.png)\
-_Isildur showing a 3 to Sauron during a particularly boistrous game of Shithead_
+_Isildur showing a 3 to Sauron during a particularly boistrous game_
 
 The recipient of the 3 must pick up the play pile. The player to their left then takes the next turn. For this reason, it is common to show 3s to the player to your right, so that you then take the next turn as well.
 
@@ -221,7 +208,7 @@ A player holding a 3 in their hand may always show it on their turn - there is n
 
 ## 10. Endgame - "up" cards
 
-One a player has exhausted their hand-cards, and the pick-up pile is empty so there is no chance of replenishing their hand, then they can begin to play their up-cards.
+Once a player has exhausted their hand-cards, and the pick-up pile is empty so there is no chance of replenishing their hand, then they can begin to play their up-cards.
 
 At the point of their next turn, one of the up-cards of the player's choosing enters their hand, whether it is possible for them to play it this turn or not.
 
@@ -229,7 +216,7 @@ If the player has multiple up-cards of the same face value, they may choose to t
 
 Once up-cards have entered the player's hand, the player takes a standard turn.
 
-When a player plays their last hand-card(s), if they have an up-card (or multiple) with the same face value as the card(s) just palyed, those cards may akso be played that turn (e.g. a jack in the hand and a jack up-card could be played as a pair). This is only permitted once the pick-up pile has been depleted.
+When a player plays their last hand-card(s), if they have an up-card (or multiple) with the same face value as the card(s) just played, those cards may also be played that turn (e.g. a jack in the hand and a jack up-card could be played as a pair). This is only permitted once the pick-up pile has been depleted.
 
 If a player has an empty hand, with a 3 as an up-card, and is shown a 3 by another player, then they may bring the up-card into their hand at this point in order to show a 3 in response.
 
@@ -245,7 +232,7 @@ Since the down-card becomes a hand-card prior to being played, there is no need 
 
 ## 12. Libraries
 
-An excessively large hand (10+ cards) is a "library". If a player picks up a large amount of cards from the pile, giving them a library, all other players must sing "Library Boy" at this player, to the tune of ["Wonderboy" by Tenacious D](https://www.youtube.com/watch?v=FL4HSiGvk68&ab_channel=tenaciousDVEVO).
+An excessively large hand (e.g. 10+ cards) is a "library". If a player picks up a large amount of cards from the pile, giving them a library, all other players must sing "Library Boy" at this player, to the tune of ["Wonderboy" by Tenacious D](https://www.youtube.com/watch?v=FL4HSiGvk68&ab_channel=tenaciousDVEVO).
 
 A player with a library will often request patience from the other players while they "sort out their library". These requests are not to be granted.
 
