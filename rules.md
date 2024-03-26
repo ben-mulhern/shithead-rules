@@ -2,12 +2,12 @@
 
 Shithead is a popular card game, played with a standard deck of 52 playing cards, typically for 2-5 players.
 
-Many variations of the game exist, but the Sainsbury's Winnersh ruleset is the one, true version of the game. All other versions are incorrect and should not be indulged.
+Many variations of the game exist, but the Winnersh ruleset is the one, true version of the game. All other versions are incorrect and should not be indulged.
 
-![Sainsbury's, Winnersh](/images/sainos.png)\
-_Sainsbury's, Winnersh_
+![Winnersh](/images/winnersh.png)\
+_A magical place_
 
-The Sainsbury's Winnersh rules were carefully refined over many, many rounds, primarily at the Pheasant pub in Winnersh, UK, circa 2001-2003.
+The Winnersh rules were carefully refined over many, many rounds, primarily at the Pheasant pub in Winnersh, UK, circa 2001-2003.
 
 ## 2. Object of the game
 
@@ -17,7 +17,7 @@ Players aim to lose all of their cards, allowing them to leave the game and thus
 The last player still holding cards loses the game, and is the Shithead. You do not want to be the Shithead.
 
 ![Darth Vader screaming Noooooo!](/images/nooo.gif)\
-_A common reaction upon becoming The Shithead_
+_This lad just became The Shithead_
 
 ## 3. Setup
 
@@ -193,8 +193,8 @@ This does not burn the pile - although four Kings have been played, they are not
 
 A player holding a 3 in their hand may choose to show it to another player as their action on their turn. This is performed as a physical gesture, holding the card out towards their chosen recipient, rather than playing it on the pile.
 
-![Isildur showing a 3 to Sauron during a particularly boistrous game of Shithead](/images/showing_a_three.png)\
-_Isildur showing a 3 to Sauron during a particularly boistrous game_
+![Isildur showing a 3 to Sauron](/images/showing_a_three.png)\
+_Isildur showing a 3 to Sauron during a particularly spicy game of Shithead_
 
 The recipient of the 3 must pick up the play pile. The player to their left then takes the next turn. For this reason, it is common to show 3s to the player to your right, so that you then take the next turn as well.
 
