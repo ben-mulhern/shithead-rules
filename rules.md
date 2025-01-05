@@ -21,7 +21,7 @@ _This lad just became The Shithead_
 
 ## 3. Setup
 
-One player shuffles and deals, distributing starting cards to each player, including themselves. Players are trusted as a group to be able to amicably establish who deals first. For subsequent rounds, the position of dealer rotates one person to the left.
+One player shuffles and deals, distributing starting cards to each player, including themselves. Players are trusted as a group to be able to amicably establish who deals first. For subsequent rounds, the shithead from the previous round shuffles and deals.
 
 Cards are distributed one at a time, clockwise, starting with the player to the dealer's left.
 
@@ -129,15 +129,18 @@ The Jack is playable, as it has greater face-value than the last played card.
 
 ## 6. Playing multiple cards
 
-Typically a player may only play one playable card on their turn - a set of one playable cards.
-
-If a player holds more than one playable card with the same face value in their hand, they may play two or more of them at once, in a single turn - a set of multiple playable cards. This is a handy mechanism for getting rid of one's cards as quickly as possible, although it might be advantageous to avoid this with stronger cards.
+Usually a player may only play one playable card on their turn. However, if a player holds more than one playable card with the same face value in their hand, they may play two or more of them at once, in a single turn - a set of multiple playable cards. This is a handy mechanism for getting rid of one's cards as quickly as possible, although it might be advantageous to avoid this with stronger cards.
 
 ```
 Example:
 Player 2 plays an 8.
 Play moves to Player 3, who has a hand of 4, and two 9s.
 They are able to play both 9s together, as a set.
+
+Example:
+Player 2 plays an 8.
+Play moves to Player 3, who has a hand of three Aces.
+Player 3 is permitted to play all three Aces at once, but they may choose to play just one, or just two of them, if they so wish.
 ```
 
 ## 7. Playing a 2
@@ -225,6 +228,8 @@ If a player has an empty hand, with a 3 as an up-card, and is shown a 3 by anoth
 Once a player has exhausted both their hand-cards and up-cards, they must play one of their down-cards blindly, since they do not know the value of any of these cards.
 
 They may choose to pre-select and view this card prior to their next turn (once hand and up-cards are exhausted), at which point the card enters their hand. They may not change that decision once the card has been viewed.
+
+If the player chooses to pre-select and view a down card, and it has the same face value as the card they had just played, they may play the down card immediately, as it forms part of a playable set of cards.
 
 If a player has no hand-cards, no up-cards, and has not pre-selected a down-card into their hand, and is shown a 3 by another player, they may take a down-card into their hand at this point. If it turns out to be a 3, they may show it in response to the 3 they were shown.
 
