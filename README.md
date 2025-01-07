@@ -143,6 +143,27 @@ Play moves to Player 3, who has a hand of three Aces.
 Player 3 is permitted to play all three Aces at once, but they may choose to play just one, or just two of them, if they so wish.
 ```
 
+### 6.3 Quickdraw
+
+If a player plays a card or set of cards, then replenishes their hand and picks up a card or cards with the same face value as the card they just played, they are permitted to play that card/those cards immediately, adding them to the playable set of cards. However, this must be done within a timely manner - the player to their left is not obliged to wait indefinitely. If the player to the left takes their next turn, this opportunity has been missed.
+
+```
+Example:
+Player 2 holds a hand of three cards, including a 6.
+Player 2 plays their 6.
+Player 2 replenishes from the pick-up pile, and picks up another 6.
+Player 2 plays this 6 immediately.
+Player 2 replenishes again.
+Player 3 takes their turn.
+
+Example:
+Player 2 holds a hand of three cards, including a 6.
+Player 2 plays their 6.
+Player 2 replenishes from the pick-up pile, and picks up another 6.
+Player 3 takes their turn.
+Player 2 has lost the opportunity to play the 6 immediately.
+```
+
 ## 7. Playing a 2
 
 A 2 can be played after any prior card and permits the player a second go immediately. Since 2 is the lowest face value card, any other card is subsequently playable. This is a highly useful card as it effectively acts as a reset.
@@ -205,7 +226,7 @@ If a player is shown a 3, but they also have a 3 in their hand, they may respond
 
 3s are single-use and are always burned afterwards.
 
-If a player has recently left the game by exhausting all their cards, they can be "shown" back into the game by a 3 so long as play has not gone a full rotation since their exit. So once the player who was to their right has completed their next turn, then there is no further danger of being shown back in.
+If a player has recently left the game by exhausting all their cards, they can be "shown" back into the game by a 3 so long as play has not gone a full rotation since their exit. So once the player who was to their right has completed their next turn, then there is no further danger of being shown back in. This includes the scenario where there are only two players remaining and each holds a three. Player 1 shows a 3 to Player 2, exits the game, only to be immediately "shown back in" by Player 2's 3. In this case Player 1 is The Shithead (even if the play pile was empty and there were no cards to pick up).
 
 A player holding a 3 in their hand may always show it on their turn - there is no scenario (e.g. a particular card on top of the play pile) that would prohibit them from showing their 3.
 
@@ -219,9 +240,13 @@ If the player has multiple up-cards of the same face value, they may choose to t
 
 Once up-cards have entered the player's hand, the player takes a standard turn.
 
+If a player has an empty hand, with a 3 as an up-card, and is shown a 3 by another player, then they may bring the up-card into their hand at this point in order to show a 3 in response.
+
+### 10.1 Quickdraw
+
 When a player plays their last hand-card(s), if they have an up-card (or multiple) with the same face value as the card(s) just played, those cards may also be played that turn (e.g. a jack in the hand and a jack up-card could be played as a pair). This is only permitted once the pick-up pile has been depleted.
 
-If a player has an empty hand, with a 3 as an up-card, and is shown a 3 by another player, then they may bring the up-card into their hand at this point in order to show a 3 in response.
+This opportunity is subject to the same quickdraw time constraints as described in section 6.3 - if the next player takes their turn before the player has had a chance to play the additional cards, then the opportunity has been lost.
 
 ## 11. Endgame - "down" cards
 
@@ -229,11 +254,15 @@ Once a player has exhausted both their hand-cards and up-cards, they must play o
 
 They may choose to pre-select and view this card prior to their next turn (once hand and up-cards are exhausted), at which point the card enters their hand. They may not change that decision once the card has been viewed.
 
-If the player chooses to pre-select and view a down card, and it has the same face value as the card they had just played, they may play the down card immediately, as it forms part of a playable set of cards.
-
 If a player has no hand-cards, no up-cards, and has not pre-selected a down-card into their hand, and is shown a 3 by another player, they may take a down-card into their hand at this point. If it turns out to be a 3, they may show it in response to the 3 they were shown.
 
 Since the down-card becomes a hand-card prior to being played, there is no need to reveal the card if it cannot be played on the player's next turn, it simply remains in the hand.
+
+### 11.3 Quickdraw
+
+If the player chose to pre-select and view a down card, and it has the same face value as the card they had just played, they may play the down card immediately, as it forms part of a playable set of cards.
+
+This opportunity is subject to the same quickdraw time constraints as described in section 6.3 - if the next player takes their turn before the player has had a chance to play the additional cards, then the opportunity has been lost.
 
 ## 12. Libraries
 
